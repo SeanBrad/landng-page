@@ -1,0 +1,223 @@
+/* ENTIRE BODY */
+
+/*
+header, section, footer, div, ul, nav { 
+  outline: 1px solid black;
+}
+*/
+
+body {
+	background: white;
+}
+
+.bg {
+	background: url(./images/bgrepeat.jpg);
+	background-repeat: repeat-x;
+}
+
+#page {
+	width: 1200px;
+	font-family: Arial, sans-serif;
+	margin: auto;
+}
+
+
+/* HEADER SECTION */
+#container {
+	width: 100%;
+}
+
+#header {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#logo {
+	float: left;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+
+#logo img {
+	height: 90px;
+}
+
+
+/* NAVIGATION ELEMENT */
+
+#nav {
+	position: absolute;
+	display: inline-block;
+	height: 93px;
+	width: 928px;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 35px 25px 0 25px;
+	padding: 0;
+}
+
+#navigation {
+	list-style: none;
+	font-size: 16px;
+}
+
+#navigation > li {
+	float: left;
+	position: relative;
+}
+
+#navigation a {
+	display: block;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+#navigation li a,
+#navigation li a:visited {
+	padding: 8px 13px;
+	display: block;
+	color: white;
+}
+
+#navigation li a:hover {
+	color: #33ff33;
+	cursor: pointer;
+}
+
+hr {
+	height: 2px;
+	background: white;
+	border-radius: 10px;
+	clear: both;
+
+}
+
+
+/* FEATURE CONTENT */
+
+#feature {
+	width: 1200px;
+	height: 420px;
+	position: relative;
+}
+
+#guess {
+	display: inline-block;
+}
+#guess #weekly_image {
+	float: left;
+}
+
+aside {
+	margin-top: 0;
+	float: right;
+	margin-left: 20px;
+	width: 420px;
+}
+
+aside .story {
+	width: 420px;
+}
+
+aside .story div {
+	margin: 0;
+}
+
+aside .story .link {
+	font-weight: bold;
+}
+
+aside .story .link a {
+	text-decoration: none;
+}
+
+aside #w_video iframe {
+	margin-top: 20px;
+}
+
+aside #w_video img {
+	width: 100%;
+}
+
+
+
+/* ARTICLES */
+
+#article {
+	width: 1200px;
+	margin: 10px 0 10px 0;
+	display: inline-block;
+}
+
+.story {
+	width: 400px;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+
+.story div {
+	padding: 15px;
+	margin: 5px;
+	border-radius: 10px;
+	background: white; 
+}
+
+.story div h1 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #000066;
+}
+
+.story div h2 {
+	font-style: italic;
+	font-size: 14px;
+	color: #4c4c4c;
+	padding-top: 3px;
+	text-indent: 4px;
+}
+
+.story div p {
+	text-align: justify;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.story div img {
+	width: 100%;
+}
+
+.story .continue {
+	font-style: italic;
+}
+
+.story .continue a {
+	text-decoration: none;
+	color: #800000;
+	font-weight: bold;
+}
+
+section {
+	clear: both;
+}
+
+.footer {
+	margin-top: 0px;
+	height: 30px;
+	width: 100%;
+	background: #e6e6e6;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+}
+
+.footer div {
+	margin-top: 6px;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 13px;
+}
+
